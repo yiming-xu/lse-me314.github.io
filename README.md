@@ -3,7 +3,7 @@
 London School of Economics and Political Science
 
 [Kenneth Benoit](kbenoit@lse.ac.uk), Department of Methodology, LSE  
-[Slava Mikhaylov](s.mikhaylov@essex.ac.uk), Institute for Analytics and Data Science, University of Essex  
+[Slava Jankin Mikhaylov](s.mikhaylov@essex.ac.uk), Institute for Analytics and Data Science, University of Essex  
 [Jack Blumenau](J.Blumenau@ucl.ac.uk), Department of Political Science, UCL
 
 This repository contains the class materials for the [Research Methods, Data Science, and Mathematics](https://www.lse.ac.uk/study-at-lse/Summer-Schools/Summer-School/Courses/Secure/Research-Methods-Data-Science-and-Mathematics) course [*ME314 Introduction to Data Science and Big Data Analytics*](https://www.lse.ac.uk/study-at-lse/Summer-Schools/Summer-School/Courses/Secure/Research-Methods-Data-Science-and-Mathematics/ME314) taught in July-August 2018 by Kenneth Benoit, Slava Mikhaylov, and Jack Blumenau.  
@@ -111,7 +111,7 @@ The following are supplemental texts which you may also find useful:
 **Kenneth Benoit** is Professor of Quantitative Social Research Methods at the Department of Methodology, LSE. With a background in political science, his substantive work focuses on political party competition, political measurement issues, and electoral systems. His research and teaching is primarily in the field of social science statistical applications. His recent work concerns the quantitative analysis of text as data, for which he has developed a package for the R statistical software.
 
 
-**Slava Mikhaylov** is Professor of Public Policy and Data Science at Institute of Analytics and Data Science and Department of Government, University of Essex. He's a Chief Scientific Advisor to Essex County Council and a co-investigator in an ESRC Big Data infrastructure investment initiative – Consumer Data Research Centre at UCL. His research and teaching is primarily in the field of computational social science and data science.
+**Slava Jankin Mikhaylov** is Professor of Public Policy and Data Science at University of Essex, holding a joint appointment in Department of Government and School of Computer Science and Electronic Engineering Institute for Analytics and Data Science (IADS). He serves as a Chief Scientific Adviser to Essex County Council. His current work focuses on embedding artificial intelligence and data science in public service delivery.
 
 **Jack Blumenau** is a Lecturer in Quantitative Methods at the UCL Department of Political Science. he was previously an ESRC "Future Research Leader" post-doc in the Methodology Department at the LSE. His research explores the effects of legislative leaders on the behaviour of parliamentarians in the European Parliament and the UK House of Commons.
 
@@ -126,7 +126,7 @@ See [https://lse-me314.github.io/instructions](https://lse-me314.github.io/instr
 
 #### Mid-term project
 
-The class assignment for Day 6 will count as the mid-term assignment, which will count for 25% of the grade.
+The class assignment for Day 5 will count as the mid-term assignment, which will count for 25% of the grade.  The [mid-term is available here](https://lse-me314.github.io/midterm-2018/).
 
 #### Exam
 
@@ -240,7 +240,7 @@ Logistic regression, discriminant analysis, Naive Bayes, evaluating model perfor
 
 ##### Resources
 
-* [Lecture Notes](day4/ME314_day4.pdf)
+* [Lecture Notes](lecturenotes/ME314_day5.pdf)
 * [Lab 5 materials](https://lse-me314.github.io/assignment05/)
 
 ##### Required Reading
@@ -261,8 +261,9 @@ Cross-validation, bootstrap, ridge and lasso.
 
 ##### Resources
 
-* [Lecture Notes](day6/ME314_day6.pdf)
+* [Lecture Notes](lecturenotes/ME314_day6.pdf)
 * [Lab 6 materials](https://lse-me314.github.io/assignment06/)
+* [World Bank South Africa NDP](https://github.com/sjankin/RSAdevplans)
 
 ##### Required Reading
 
@@ -280,7 +281,7 @@ GAMs, local regression, decision trees, random forest, boosting.
 
 ##### Resources
 
-* [Lecture Notes](day7/ME314_day8.pdf)
+* [Lecture Notes](lecturenotes/ME314_day7.pdf)
 * [Lab 7 materials](https://lse-me314.github.io/assignment07/)
 
 ##### Required Reading
@@ -301,7 +302,7 @@ Cluster analysis, PCA, correspondence analysis, association rules.
 
 ##### Resources
 
-* [Lecture Notes](day7/ME314_day7.pdf)
+* [Lecture Notes](lecturenotes/ME314_day8.pdf)
 * [Lab 8 materials](https://lse-me314.github.io/assignment08/)
 
 ##### Required reading
@@ -359,7 +360,7 @@ Latent Dirichlet Allocation, Correlated Topic Model, Structural Topic Model.
 
 ##### Recommended Reading
 
-* Blei, D. and J. Lafferty "Topic Models." In _Text Mining: Classification, clustering, and applications_, A. Srivastava and M. Sahami (eds.), pp 71-94, 2009. Chapter available [here](http://www.cs.princeton.edu/~blei/papers/BleiLafferty2009.pdf).
+* Blei, D. and J. Lafferty "Topic Models." In _Text Mining: Classification, clustering, and applications_, A. Srivastava and M. Sahami (eds.), pp 71-94, 2009. Chapter available [here](http://www.cs.columbia.edu/~blei/papers/BleiLafferty2009.pdf).
 * Blei, David M., and John D. Lafferty. "Dynamic topic models." In _Proceedings of the 23rd international conference on machine learning_, pp. 113-120. ACM, 2006.
 * Mimno, D. (April 2012). "Computational Historiography: Data Mining in a Century of Classics Journals." _Journal on Computing and Cultural Heritage_, 5 (1).
 * Lesmeister Chapter 12.
@@ -391,7 +392,8 @@ Working with the Twitter API, Facebook API, JSON data, and examples.
 
 ##### Recommended Reading
 
-* [Earthquake shakes Twitter users: real-time event detection by social sensors](day11/Sakaki_Earthquake.pdf)
+* [Earthquake shakes Twitter users: real-time event detection by social sensors](http://www.ymatsuo.com/papers/www2010.pdf
+ )
 * http://rcrastinate.blogspot.co.uk/2015/02/mapping-world-with-tweets-including-gif.html
 * https://github.com/twitter/AnomalyDetection
 * https://github.com/pablobarbera/streamR
