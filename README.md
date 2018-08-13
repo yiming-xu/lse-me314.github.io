@@ -2,9 +2,9 @@
  
 London School of Economics and Political Science
 
-[Kenneth Benoit](kbenoit@lse.ac.uk), Department of Methodology, LSE  
-[Slava Jankin Mikhaylov](s.mikhaylov@essex.ac.uk), Institute for Analytics and Data Science, University of Essex  
-[Jack Blumenau](J.Blumenau@ucl.ac.uk), Department of Political Science, UCL
+Kenneth Benoit ([kbenoit@lse.ac.uk](kbenoit@lse.ac.uk)), Department of Methodology, LSE  
+Slava Jankin Mikhaylov ([s.mikhaylov@essex.ac.uk](s.mikhaylov@essex.ac.uk)), Institute for Analytics and Data Science, University of Essex  
+Jack Blumenau ([J.Blumenau@ucl.ac.uk](J.Blumenau@ucl.ac.uk)), Department of Political Science, UCL
 
 This repository contains the class materials for the [Research Methods, Data Science, and Mathematics](https://www.lse.ac.uk/study-at-lse/Summer-Schools/Summer-School/Courses/Secure/Research-Methods-Data-Science-and-Mathematics) course [*ME314 Introduction to Data Science and Big Data Analytics*](https://www.lse.ac.uk/study-at-lse/Summer-Schools/Summer-School/Courses/Secure/Research-Methods-Data-Science-and-Mathematics/ME314) taught in July-August 2018 by Kenneth Benoit, Slava Mikhaylov, and Jack Blumenau.  
 
@@ -22,7 +22,7 @@ This repository contains the class materials for the [Research Methods, Data Sci
 | 8  | Th 9 Aug  | KB         | [Unsupervised learning and dimensional reduction](#8-unsupervised-learning-and-dimensional-reduction) |
 | 9  | Mo 13 Aug | JB         | [Text analysis](#9-text-analysis) |
 | 10 | Tu 14 Aug | JB         | [Topic modelling](#10-topic-modelling) |
-| 11 | We 15 Aug | JB         | [Mining the Social Web](#11-mining-the-social-web) |
+| 11 | We 15 Aug | JB         | [Data from the Web](#11-data-from-the-web) |
 | 12 | Th 16 Aug | KB         | [Network Analysis](#12-network-analysis) |
 | 13 | Fr 17 Aug |            | [Final Exam](#assessment) |
 
@@ -283,6 +283,7 @@ GAMs, local regression, decision trees, random forest, boosting.
 
 * [Lecture Notes](lecturenotes/ME314_day7.pdf)
 * [Lab 7 materials](https://lse-me314.github.io/assignment07/)
+* [United Nations example](https://github.com/sjankin/UnitedNations)
 
 ##### Required Reading
 
@@ -325,18 +326,18 @@ Working with text in R, sentiment analysis, dictionary methods.
 ##### Resources
 
 * [Lecture Notes](lecturenotes/ME314_day9.pdf)
-* [Assignment 9 as R markdown](day9/ME314_assignment9_LASTNAME_FIRSTNAME.Rmd) or [html](http://htmlpreview.github.io/?https://github.com/kbenoit/ME314/blob/master/day9/ME314_assignment8_LASTNAME_FIRSTNAME.html)
-    + sample zip file [`UKimmigTexts.zip`](day9/UKimmigTexts.zip) of texts for building a corpus
-* Assignment 9 **solution** as [R markdown](day9/ME314_assignment9_solution.Rmd)
+* [Lab 09 materials](https://lse-me314.github.io/assignment09/)
+  
 
 ##### Required reading
 
-* Grimmer, J, and B M Stewart (2013), ``Text as Data: the Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts.'' _Political Analysis_.
+* Grimmer, J, and B M Stewart (2013), [``Text as Data: the Promise and Pitfalls of Automatic Content Analysis Methods for Political Texts.''](https://web.stanford.edu/~jgrimmer/tad2.pdf) _Political Analysis_.
 * Benoit, Kenneth and Alexander Herzog. In press. [``Text Analysis: Estimating Policy Preferences From Written and Spoken Words.''](http://www.kenbenoit.net/pdfs/HerzogBenoit_bookchapter.pdf).'' In _Analytics, Policy and Governance_, eds. Jennifer Bachner, Kathyrn Wagner Hill, and Benjamin Ginsberg.
 
 ##### Recommended Reading
 
-* Spirling, A. (2012), ``U.S. Treaty Making with American Indians: Institutional Change and Relative Power, 1784–1911.'' _American Journal of Political Science_, 56: 84--97.
+* Denny, M.J. and Spirling, A. (2018),[``Text Preprocessing For Unsupervised Learning: Why It Matters, When It Misleads, And What To Do About It''](https://www.cambridge.org/core/journals/political-analysis/article/text-preprocessing-for-unsupervised-learning-why-it-matters-when-it-misleads-and-what-to-do-about-it/AA7D4DE0AA6AB208502515AE3EC6989E) _Political Analysis_
+* Spirling, A. (2012), [``Democratization and Linguistic Complexity: The Effect of Franchise Extension on Parliamentary Discourse, 1832–1915.''](https://www.journals.uchicago.edu/doi/abs/10.1086/683612) _Journal of Politics_
 * Herzog, A. and K. Benoit (2015), ``The most unkindest cuts: Speaker selection and expressed government dissent during economic crisis.'' _Journal of Politics_, 77(4):1157--1175.
 
 ***
@@ -348,8 +349,7 @@ Latent Dirichlet Allocation, Correlated Topic Model, Structural Topic Model.
 ##### Resources
 
 * [Lecture Notes](lecturenotes/ME314_day10.pdf)
-* [Assignment 10 as R markdown](day10/ME314_assignment10_LASTNAME_FIRSTNAME.Rmd)
-* Assignment 10 **solution** as [R markdown](day10/ME314_assignment10_solution.Rmd)
+* [Lab 10 materials](https://lse-me314.github.io/assignment10/)
 
 
 ##### Required reading
@@ -367,17 +367,14 @@ Latent Dirichlet Allocation, Correlated Topic Model, Structural Topic Model.
 
 ***
 
-#### 11. Mining the Social Web
+#### 11. Data from the Web
 
 Working with the Twitter API, Facebook API, JSON data, and examples.
 
 ##### Resources
 
 * [Lecture Notes](day11/ME314_day11.pdf)
-* [General examples from the lecture](day11/day11examples_noKeys.R)
-* [Streaming example code](day11/streamRExample.R)
-* [Rest Example code](day11/restExample.R)
-* [Assignment 11 as R markdown](day11/ME314_assignment11_LASTNAME_FIRSTNAME.Rmd).  
+* [Lab 11 materials](https://lse-me314.github.io/assignment11/)
 
 ##### Required reading:
 
