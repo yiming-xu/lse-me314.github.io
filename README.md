@@ -339,6 +339,7 @@ Working with text in R, sentiment analysis, dictionary methods.
 * Denny, M.J. and Spirling, A. (2018),[``Text Preprocessing For Unsupervised Learning: Why It Matters, When It Misleads, And What To Do About It''](https://www.cambridge.org/core/journals/political-analysis/article/text-preprocessing-for-unsupervised-learning-why-it-matters-when-it-misleads-and-what-to-do-about-it/AA7D4DE0AA6AB208502515AE3EC6989E) _Political Analysis_
 * Spirling, A. (2012), [``Democratization and Linguistic Complexity: The Effect of Franchise Extension on Parliamentary Discourse, 1832–1915.''](https://www.journals.uchicago.edu/doi/abs/10.1086/683612) _Journal of Politics_
 * Herzog, A. and K. Benoit (2015), ``The most unkindest cuts: Speaker selection and expressed government dissent during economic crisis.'' _Journal of Politics_, 77(4):1157--1175.
+* Benoit, K., Munger, K., and Spirling, A.  [``Measuring and Explaining Political Sophistication Through Textual Complexity.''](http://ssrn.com/abstract=3062061), _Working Paper_
 
 ***
 
@@ -369,16 +370,29 @@ Latent Dirichlet Allocation, Correlated Topic Model, Structural Topic Model.
 
 #### 11. Data from the Web
 
-Working with the Twitter API, Facebook API, JSON data, and examples.
+The promises and pitfalls of social media data. The Twitter API. The Facebook API. Web scraping. Ethics.
 
 ##### Resources
 
-* [Lecture Notes](day11/ME314_day11.pdf)
+* [Lecture Notes](lecturenotes/ME314_day11.pdf)
 * [Lab 11 materials](https://lse-me314.github.io/assignment11/)
+* [R script for twitteR lecture example](lecturenotes/misc/twitteR_examples.R)
+* [R script for web scraping lecture example](lecturenotes/misc/game_of_thrones.R)
 
-##### Required reading:
+##### Recommended Reading:
 
 * Broniatowski, David A, Michael J Paul, and Mark Dredze. 2013. "National and Local Influenza Surveillance Through Twitter: an Analysis of the 2012-2013 Influenza Epidemic" _PLoS ONE_ 8(12): 83672–78. [PDF here](day11/Broniatowski.pdf)
+* Barbera, Pablo., 2017. [``Less is more? How demographic sample weights can improve public opinion estimates based on Twitter data.''](http://pablobarbera.com/static/less-is-more.pdf) _Working Paper_
+* Munger, Kevin., 2017. [``Tweetment Effects on the Tweeted: Experimentally Reducing Racist Harassment''](https://link.springer.com/article/10.1007%2Fs11109-016-9373-5) _Political Behaviour_ 39(3): 629-649
+* Ginsberg et al., 2008. [``Detecting influenza epidemics using search engine query data''](https://www.nature.com/articles/nature07634) _Nature_ 457: 1012–1014. 
+* Lazer et al., 2014. [``The Parable of Google Flu: Traps in Big Data Analysis''](http://science.sciencemag.org/content/343/6176/1203.full) _Science_ 343: 1203-1205
+* [Earthquake shakes Twitter users: real-time event detection by social sensors](http://www.ymatsuo.com/papers/www2010.pdf
+ )
+* http://rcrastinate.blogspot.co.uk/2015/02/mapping-world-with-tweets-including-gif.html
+* https://github.com/pablobarbera/streamR
+* Matthew Russell (2013). _Mining the Social Web_. O'Reilly Media. 2nd edition. 
+
+##### To use the twitteR package in R:
 * Twitter Authentication setup:
     + [Official](https://dev.twitter.com/oauth/overview/application-owner-access-tokens)
     + [Walkthrough](http://wiki.communitydata.cc/Twitter_authentication_setup)  
@@ -386,22 +400,16 @@ Working with the Twitter API, Facebook API, JSON data, and examples.
     + [Overview of REST API](https://dev.twitter.com/rest/public)
     + [Overview of streaming API](https://dev.twitter.com/streaming/overview)
 
-
-##### Recommended Reading
-
-* [Earthquake shakes Twitter users: real-time event detection by social sensors](http://www.ymatsuo.com/papers/www2010.pdf
- )
-* http://rcrastinate.blogspot.co.uk/2015/02/mapping-world-with-tweets-including-gif.html
-* https://github.com/twitter/AnomalyDetection
-* https://github.com/pablobarbera/streamR
-* Zafarani et al., Chapters 1-4.
-* Matthew Russell (2013). _Mining the Social Web_. O'Reilly Media. 2nd edition.
-
 ***
 
 #### 12. Network Analysis
 
-Working with network data, network data types, centrality measures.
+More text analysis, including dictionaries and identifying keywords; and an introduction to network analysis.  Will also include an exam review.
+
+##### Resources
+
+* [Lecture Notes](lecturenotes/ME314_day12.pdf)
+* [Lab 12 materials](https://lse-me314.github.io/assignment12/)
 
 ##### Required reading
 
